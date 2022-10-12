@@ -22,7 +22,7 @@ namespace Data
         #endregion
 
 
-        #region Conexion
+        #region Conexion a la base de Datos
         public Conexion(Int32 idDatabase)
         {
             try
@@ -48,7 +48,7 @@ namespace Data
         #endregion
 
 
-        #region EjecutarDataReader
+        #region Ejecutar DataReader
         public SqlDataReader ejecutarDataReader(String sProcedure, params object[] valores)
         {
             try
@@ -63,7 +63,8 @@ namespace Data
         }
         #endregion
 
-        #region EjecutarDataReaderWithOutArg
+
+        #region Ejecutar DataReader Sin argumentos
         public SqlDataReader ejecutarDataReaderWithOutArg(String sProcedure)
         {
             try
@@ -78,7 +79,8 @@ namespace Data
         }
         #endregion
 
-        #region EjecutarEscalar       
+
+        #region Ejecutar Escalar       
         public String EjecutarEscalar(String sProcedure, params object[] valores)
         {
             SqlParameter[] arParms = new SqlParameter[valores.Length];

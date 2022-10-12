@@ -3,13 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{5B56BEBC-D14A-4891-A304-58A478918D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{5B56BEBC-D14A-4891-A304-58A478918D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{F63800BD-BB8A-4504-BB83-E48CE61E21B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{F63800BD-BB8A-4504-BB83-E48CE61E21B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{630EEC16-5659-4A62-8272-C679CCD85CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{630EEC16-5659-4A62-8272-C679CCD85CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{324669A4-E37F-4A9D-B106-F7856C71DF05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{324669A4-E37F-4A9D-B106-F7856C71DF05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{63CBA797-CCE4-43A5-BEA5-D02DCD28B59C}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreacionTablas.sql = Scripts\CreacionTablas.sql
+		Scripts\FuncionSplit.sql = Scripts\FuncionSplit.sql
+		Scripts\USP_MNT_Login.sql = Scripts\USP_MNT_Login.sql
+		Scripts\USP_MNT_Menu.sql = Scripts\USP_MNT_Menu.sql
+		Scripts\USP_MNT_Task.sql = Scripts\USP_MNT_Task.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

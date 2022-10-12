@@ -20,6 +20,7 @@ namespace WebApi.Controllers
         public IActionResult CrudTask(GeneralEntity genEnt)
         {
 
+            //Lista de Datos
             if (genEnt.nOpcion == 1 )
             {
                 try
@@ -37,6 +38,7 @@ namespace WebApi.Controllers
                 }
             }
 
+            //Crear/Actualizar/Eliminar
             else if (genEnt.nOpcion == 2 || genEnt.nOpcion == 3 || genEnt.nOpcion == 4 )
             {
                 try
